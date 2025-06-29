@@ -1,0 +1,11 @@
+{
+    "package": "coreutils",
+    "version": "9.7",
+    "release": 20250409,
+    "source": {
+        "url": "https://ftpmirror.gnu.org/gnu/coreutils/coreutils-9.7.tar.xz",
+        "sha256": "e8bb26ad0293f9b5a1fc43fb42ba970e312c66ce92c1b0b16713d7500db251bf",
+        "size": 6158960
+    },
+    "install": "cd coreutils-9.7 && ./configure --prefix=\"$JPW_PREFIX\" && make && make install DESTDIR=\"$JPW_DSTDIR\""
+}
