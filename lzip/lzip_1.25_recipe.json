@@ -7,5 +7,6 @@
         "sha256": "09418a6d8fb83f5113f5bd856e09703df5d37bae0308c668d0f346e3d3f0a56f",
         "size": 115640
     },
-    "install": "cd lzip-1.25 && ./configure --prefix=\"$JPW_PREFIX\" && make && make install DESTDIR=\"$JPW_DSTDIR\""
+    "install": "cd lzip-1.25 && ./configure --prefix=\"$JPW_PREFIX\" && make && make install DESTDIR=\"$JPW_DSTDIR\"",
+    "dependencies": []
 }

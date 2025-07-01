@@ -7,5 +7,6 @@
         "sha256": "7a0124327b398fd9eb1a6abde583389821422c744ffa10734b24f557610d3283",
         "size": 6134764
     },
-    "install": "cd coreutils-9.6 && ./configure --prefix=\"$JPW_PREFIX\" && make && make install DESTDIR=\"$JPW_DSTDIR\""
+    "install": "cd coreutils-9.6 && ./configure --prefix=\"$JPW_PREFIX\" && make && make install DESTDIR=\"$JPW_DSTDIR\"",
+    "dependencies": []
 }
